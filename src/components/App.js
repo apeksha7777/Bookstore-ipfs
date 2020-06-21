@@ -44,10 +44,16 @@ async loadblockchaindata(){
     const bookcount= await this.state.bookstore.methods.totalBooks().call();
     this.setState({bookcount});
     console.log(bookcount.toString());
+  //   this.state.bookstore.methods.Purchase(1).send({from:this.state.account})
+  // .once('receipt',(receipt)=>{
+   
+  // })
     for(let i=0;i<bookcount;i++)
               {
                
                 const result=await bookstore.methods.retreive(i).call();
+                console.log(result);
+                
                 this.setState({
                   bookslist:[...this.state.bookslist,result]
                 })
@@ -76,6 +82,7 @@ constructor(props)
 
   }
   this.store=this.store.bind(this);
+  this.buybook = this.buybook.bind(this)
   // this.totalbooks=this.totalbooks.bind(this);
 }
 
@@ -87,6 +94,13 @@ store(bookname,bookhash,coverhash,deschash,amount){
   })
 
 
+}
+
+buybook(id,price){
+  this.state.bookstore.methods.Purchase(id).send({ from: this.state.account, value: price })
+  .once('receipt', (receipt) => {
+    this.setState({ loading: false })
+  })
 }
 
 
@@ -106,6 +120,7 @@ render() {
      : <Main 
             store={this.store}
             bookslist={this.state.bookslist}
+            buybook={this.buybook}
        />
     }
       </main>

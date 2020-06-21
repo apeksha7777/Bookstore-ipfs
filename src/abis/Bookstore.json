@@ -111,6 +111,10 @@
         {
           "name": "",
           "type": "address"
+        },
+        {
+          "name": "",
+          "type": "uint256"
         }
       ],
       "payable": false,
@@ -149,20 +153,20 @@
       "signature": "0xe2aeb2ae"
     }
   ],
-  "bytecode": "0x6080604052600060015534801561001557600080fd5b50610717806100256000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338c70e69146100675780635553afb6146101575780636ec4f4bf1461025a578063e2aeb2ae14610285575b600080fd5b34801561007357600080fd5b50610155600480360360a081101561008a57600080fd5b81019080803590602001906401000000008111156100a757600080fd5b8201836020820111156100b957600080fd5b803590602001918460018302840111640100000000831117156100db57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291908035906020019092919080359060200190929190803590602001909291905050506102b3565b005b34801561016357600080fd5b506101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506103af565b60405180806020018781526020018681526020018581526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561021a5780820151818401526020810190506101ff565b50505050905090810190601f1680156102475780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390f35b34801561026657600080fd5b5061026f6104c0565b6040518082815260200191505060405180910390f35b6102b16004803603602081101561029b57600080fd5b81019080803590602001909291905050506104ca565b005b60c0604051908101604052808681526020018581526020018481526020018381526020018281526020013373ffffffffffffffffffffffffffffffffffffffff16815250600080600160008154809291906001019190505581526020019081526020016000206000820151816000019080519060200190610335929190610646565b506020820151816001015560408201518160020155606082015181600301556080820151816004015560a08201518160050160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050505050505050565b606060008060008060008060008089815260200190815260200160002090508060000181600101548260020154836003015484600401548560050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16858054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104a05780601f10610475576101008083540402835291602001916104a0565b820191906000526020600020905b81548152906001019060200180831161048357829003601f168201915b505050505095508090509650965096509650965096505091939550919395565b6000600154905090565b600080600083815260200190815260200160002090508060040154341015151561055c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260158152602001807f436865636b2074686520626f6f6b20616d6f756e74000000000000000000000081525060200191505060405180910390fd5b8060050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc82600401549081150290604051600060405180830381858888f193505050501580156105ca573d6000803e3d6000fd5b507f5dfe903babfa2290fe4412b51dc55080371656877e38cde0cc38808ee7564b1b82338360040154604051808481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061068757805160ff19168380011785556106b5565b828001600101855582156106b5579182015b828111156106b4578251825591602001919060010190610699565b5b5090506106c291906106c6565b5090565b6106e891905b808211156106e45760008160009055506001016106cc565b5090565b9056fea165627a7a723058206e20117fb23ae799aceec4929a6f9c5fbb5c61a494b7c84f52af1048d07ee99f0029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338c70e69146100675780635553afb6146101575780636ec4f4bf1461025a578063e2aeb2ae14610285575b600080fd5b34801561007357600080fd5b50610155600480360360a081101561008a57600080fd5b81019080803590602001906401000000008111156100a757600080fd5b8201836020820111156100b957600080fd5b803590602001918460018302840111640100000000831117156100db57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291908035906020019092919080359060200190929190803590602001909291905050506102b3565b005b34801561016357600080fd5b506101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506103af565b60405180806020018781526020018681526020018581526020018481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828103825288818151815260200191508051906020019080838360005b8381101561021a5780820151818401526020810190506101ff565b50505050905090810190601f1680156102475780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390f35b34801561026657600080fd5b5061026f6104c0565b6040518082815260200191505060405180910390f35b6102b16004803603602081101561029b57600080fd5b81019080803590602001909291905050506104ca565b005b60c0604051908101604052808681526020018581526020018481526020018381526020018281526020013373ffffffffffffffffffffffffffffffffffffffff16815250600080600160008154809291906001019190505581526020019081526020016000206000820151816000019080519060200190610335929190610646565b506020820151816001015560408201518160020155606082015181600301556080820151816004015560a08201518160050160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050505050505050565b606060008060008060008060008089815260200190815260200160002090508060000181600101548260020154836003015484600401548560050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16858054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104a05780601f10610475576101008083540402835291602001916104a0565b820191906000526020600020905b81548152906001019060200180831161048357829003601f168201915b505050505095508090509650965096509650965096505091939550919395565b6000600154905090565b600080600083815260200190815260200160002090508060040154341015151561055c576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260158152602001807f436865636b2074686520626f6f6b20616d6f756e74000000000000000000000081525060200191505060405180910390fd5b8060050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc82600401549081150290604051600060405180830381858888f193505050501580156105ca573d6000803e3d6000fd5b507f5dfe903babfa2290fe4412b51dc55080371656877e38cde0cc38808ee7564b1b82338360040154604051808481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061068757805160ff19168380011785556106b5565b828001600101855582156106b5579182015b828111156106b4578251825591602001919060010190610699565b5b5090506106c291906106c6565b5090565b6106e891905b808211156106e45760008160009055506001016106cc565b5090565b9056fea165627a7a723058206e20117fb23ae799aceec4929a6f9c5fbb5c61a494b7c84f52af1048d07ee99f0029",
-  "sourceMap": "25:1319:0:-;;;448:1;436:13;;25:1319;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1319:0;;;;;;;",
-  "deployedSourceMap": "25:1319:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;456:244;;8:9:-1;5:2;;;30:1;27;20:12;5:2;456:244:0;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;456:244:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;456:244:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;456:244:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;456:244:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;456:244:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;705:263;;8:9:-1;5:2;;;30:1;27;20:12;5:2;705:263:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;705:263:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;705:263:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;973:83;;8:9:-1;5:2;;;30:1;27;20:12;5:2;973:83:0;;;;;;;;;;;;;;;;;;;;;;;1061:279;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1061:279:0;;;;;;;;;;;;;;;;;;;;456:244;616:77;;;;;;;;;621:9;616:77;;;;632:9;616:77;;;;643:10;616:77;;;;655:16;616:77;;;;673:7;616:77;;;;682:10;616:77;;;;;595:8;:18;604:6;;:8;;;;;;;;;;;;595:18;;;;;;;;;;;:98;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;456:244;;;;;:::o;705:263::-;761:13;776:7;785;794;803;812;831:14;848:8;:17;857:7;848:17;;;;;;;;;;;831:34;;883:1;:10;;895:1;:10;;;907:1;:11;;;920:1;:17;;;939:1;:8;;;949:1;:11;;;;;;;;;;;;875:86;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;705:263;;;;;;;:::o;973:83::-;1015:7;1042:6;;1034:15;;973:83;:::o;1061:279::-;1120:18;1141:8;:17;1150:7;1141:17;;;;;;;;;;;1120:38;;1188:5;:12;;;1175:9;:25;;1166:60;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1234:5;:15;;;;;;;;;;;;:24;;:38;1259:5;:12;;;1234:38;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1234:38:0;1285:48;1299:7;1308:10;1320:5;:12;;;1285:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1061:279;;:::o;25:1319::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\n\ncontract Bookstore {\n    event bookPublished (uint256 bookId, address publisher, uint256 amount);\n    event bookPurchased (uint256 bookId, address buyer, uint256 amount);\n    struct Book {\n        string bookName;\n        bytes32 bookHash;\n        bytes32 coverHash;\n        bytes32 descriptionHash;\n        uint256 amount;\n        address payable bookOwner;\n    }\n     mapping (uint256 => Book) BookList;\n     uint bookId=0;\n     function store(string memory _bookName, bytes32 _bookHash, bytes32 _coverHash, bytes32 _descriptionHash, uint256 _amount) public {\n        BookList[bookId++] = Book(_bookName, _bookHash, _coverHash, _descriptionHash, _amount, msg.sender);\n    }\n    function retreive(uint256 _bookId) public view returns (string memory, bytes32, bytes32, bytes32, uint256, address) {\n        Book storage c = BookList[_bookId];\n        return (c.bookName, c.bookHash, c.coverHash, c.descriptionHash, c.amount, c.bookOwner);\n    }\n    function totalBooks() public view returns(uint256) {\n        return (bookId);\n    }\n    function Purchase (uint256 _bookId) public payable {\n      Book storage Books = BookList[_bookId];\n      require (msg.value >= Books.amount, \"Check the book amount\");\n      Books.bookOwner.transfer(Books.amount);\n      emit bookPurchased(_bookId, msg.sender, Books.amount);\n    }\n  }",
-  "sourcePath": "/home/apeksha/Bookstore/src/contracts/Bookstore.sol",
+  "bytecode": "0x6080604052600060015534801561001557600080fd5b50610725806100256000396000f3fe608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338c70e69146100675780635553afb6146101575780636ec4f4bf14610261578063e2aeb2ae1461028c575b600080fd5b34801561007357600080fd5b50610155600480360360a081101561008a57600080fd5b81019080803590602001906401000000008111156100a757600080fd5b8201836020820111156100b957600080fd5b803590602001918460018302840111640100000000831117156100db57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291908035906020019092919080359060200190929190803590602001909291905050506102ba565b005b34801561016357600080fd5b506101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506103b6565b60405180806020018881526020018781526020018681526020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838152602001828103825289818151815260200191508051906020019080838360005b83811015610220578082015181840152602081019050610205565b50505050905090810190601f16801561024d5780820380516001836020036101000a031916815260200191505b509850505050505050505060405180910390f35b34801561026d57600080fd5b506102766104ce565b6040518082815260200191505060405180910390f35b6102b8600480360360208110156102a257600080fd5b81019080803590602001909291905050506104d8565b005b60c0604051908101604052808681526020018581526020018481526020018381526020018281526020013373ffffffffffffffffffffffffffffffffffffffff1681525060008060016000815480929190600101919050558152602001908152602001600020600082015181600001908051906020019061033c929190610654565b506020820151816001015560408201518160020155606082015181600301556080820151816004015560a08201518160050160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050505050505050565b606060008060008060008060008060008a815260200190815260200160002090508060000181600101548260020154836003015484600401548560050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168e868054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104aa5780601f1061047f576101008083540402835291602001916104aa565b820191906000526020600020905b81548152906001019060200180831161048d57829003601f168201915b50505050509650819150975097509750975097509750975050919395979092949650565b6000600154905090565b600080600083815260200190815260200160002090508060040154341015151561056a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260158152602001807f436865636b2074686520626f6f6b20616d6f756e74000000000000000000000081525060200191505060405180910390fd5b8060050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc82600401549081150290604051600060405180830381858888f193505050501580156105d8573d6000803e3d6000fd5b507f5dfe903babfa2290fe4412b51dc55080371656877e38cde0cc38808ee7564b1b82338360040154604051808481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061069557805160ff19168380011785556106c3565b828001600101855582156106c3579182015b828111156106c25782518255916020019190600101906106a7565b5b5090506106d091906106d4565b5090565b6106f691905b808211156106f25760008160009055506001016106da565b5090565b9056fea165627a7a72305820d26907bf3f2975d1d609eed54dade20ea45eb82a6d97db6743c1de6676034f4a0029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806338c70e69146100675780635553afb6146101575780636ec4f4bf14610261578063e2aeb2ae1461028c575b600080fd5b34801561007357600080fd5b50610155600480360360a081101561008a57600080fd5b81019080803590602001906401000000008111156100a757600080fd5b8201836020820111156100b957600080fd5b803590602001918460018302840111640100000000831117156100db57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290803590602001909291908035906020019092919080359060200190929190803590602001909291905050506102ba565b005b34801561016357600080fd5b506101906004803603602081101561017a57600080fd5b81019080803590602001909291905050506103b6565b60405180806020018881526020018781526020018681526020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838152602001828103825289818151815260200191508051906020019080838360005b83811015610220578082015181840152602081019050610205565b50505050905090810190601f16801561024d5780820380516001836020036101000a031916815260200191505b509850505050505050505060405180910390f35b34801561026d57600080fd5b506102766104ce565b6040518082815260200191505060405180910390f35b6102b8600480360360208110156102a257600080fd5b81019080803590602001909291905050506104d8565b005b60c0604051908101604052808681526020018581526020018481526020018381526020018281526020013373ffffffffffffffffffffffffffffffffffffffff1681525060008060016000815480929190600101919050558152602001908152602001600020600082015181600001908051906020019061033c929190610654565b506020820151816001015560408201518160020155606082015181600301556080820151816004015560a08201518160050160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050505050505050565b606060008060008060008060008060008a815260200190815260200160002090508060000181600101548260020154836003015484600401548560050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff168e868054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104aa5780601f1061047f576101008083540402835291602001916104aa565b820191906000526020600020905b81548152906001019060200180831161048d57829003601f168201915b50505050509650819150975097509750975097509750975050919395979092949650565b6000600154905090565b600080600083815260200190815260200160002090508060040154341015151561056a576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260158152602001807f436865636b2074686520626f6f6b20616d6f756e74000000000000000000000081525060200191505060405180910390fd5b8060050160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc82600401549081150290604051600060405180830381858888f193505050501580156105d8573d6000803e3d6000fd5b507f5dfe903babfa2290fe4412b51dc55080371656877e38cde0cc38808ee7564b1b82338360040154604051808481526020018373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001828152602001935050505060405180910390a15050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061069557805160ff19168380011785556106c3565b828001600101855582156106c3579182015b828111156106c25782518255916020019190600101906106a7565b5b5090506106d091906106d4565b5090565b6106f691905b808211156106f25760008160009055506001016106da565b5090565b9056fea165627a7a72305820d26907bf3f2975d1d609eed54dade20ea45eb82a6d97db6743c1de6676034f4a0029",
+  "sourceMap": "25:1332:0:-;;;448:1;436:13;;25:1332;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1332:0;;;;;;;",
+  "deployedSourceMap": "25:1332:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;456:244;;8:9:-1;5:2;;;30:1;27;20:12;5:2;456:244:0;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;456:244:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;456:244:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;456:244:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;456:244:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;456:244:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;705:276;;8:9:-1;5:2;;;30:1;27;20:12;5:2;705:276:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;705:276:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;705:276:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;986:83;;8:9:-1;5:2;;;30:1;27;20:12;5:2;986:83:0;;;;;;;;;;;;;;;;;;;;;;;1074:279;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1074:279:0;;;;;;;;;;;;;;;;;;;;456:244;616:77;;;;;;;;;621:9;616:77;;;;632:9;616:77;;;;643:10;616:77;;;;655:16;616:77;;;;673:7;616:77;;;;682:10;616:77;;;;;595:8;:18;604:6;;:8;;;;;;;;;;;;595:18;;;;;;;;;;;:98;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;456:244;;;;;:::o;705:276::-;761:13;776:7;785;794;803;812;820:4;836:14;853:8;:17;862:7;853:17;;;;;;;;;;;836:34;;888:1;:10;;900:1;:10;;;912:1;:11;;;925:1;:17;;;944:1;:8;;;954:1;:11;;;;;;;;;;;;966:7;880:94;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;705:276;;;;;;;;;:::o;986:83::-;1028:7;1055:6;;1047:15;;986:83;:::o;1074:279::-;1133:18;1154:8;:17;1163:7;1154:17;;;;;;;;;;;1133:38;;1201:5;:12;;;1188:9;:25;;1179:60;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1247:5;:15;;;;;;;;;;;;:24;;:38;1272:5;:12;;;1247:38;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1247:38:0;1298:48;1312:7;1321:10;1333:5;:12;;;1298:48;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1074:279;;:::o;25:1332::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract Bookstore {\n    event bookPublished (uint256 bookId, address publisher, uint256 amount);\n    event bookPurchased (uint256 bookId, address buyer, uint256 amount);\n    struct Book {\n        string bookName;\n        bytes32 bookHash;\n        bytes32 coverHash;\n        bytes32 descriptionHash;\n        uint256 amount;\n        address payable bookOwner;\n    }\n     mapping (uint256 => Book) BookList;\n     uint bookId=0;\n     function store(string memory _bookName, bytes32 _bookHash, bytes32 _coverHash, bytes32 _descriptionHash, uint256 _amount) public {\n        BookList[bookId++] = Book(_bookName, _bookHash, _coverHash, _descriptionHash, _amount, msg.sender);\n    }\n    function retreive(uint256 _bookId) public view returns (string memory, bytes32, bytes32, bytes32, uint256, address,uint) {\n        Book storage c = BookList[_bookId];\n        return (c.bookName, c.bookHash, c.coverHash, c.descriptionHash, c.amount, c.bookOwner,_bookId);\n    }\n    function totalBooks() public view returns(uint256) {\n        return (bookId);\n    }\n    function Purchase (uint256 _bookId) public payable {\n      Book storage Books = BookList[_bookId];\n      require (msg.value >= Books.amount, \"Check the book amount\");\n      Books.bookOwner.transfer(Books.amount);\n      emit bookPurchased(_bookId, msg.sender, Books.amount);\n    }\n  }",
+  "sourcePath": "/home/apeksha/Bookstore-ipfs/src/contracts/Bookstore.sol",
   "ast": {
-    "absolutePath": "/home/apeksha/Bookstore/src/contracts/Bookstore.sol",
+    "absolutePath": "/home/apeksha/Bookstore-ipfs/src/contracts/Bookstore.sol",
     "exportedSymbols": {
       "Bookstore": [
-        152
+        155
       ]
     },
-    "id": 153,
+    "id": 156,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -182,9 +186,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 152,
+        "id": 155,
         "linearizedBaseContracts": [
-          152
+          155
         ],
         "name": "Bookstore",
         "nodeType": "ContractDefinition",
@@ -547,7 +551,7 @@
             ],
             "name": "Book",
             "nodeType": "StructDefinition",
-            "scope": 152,
+            "scope": 155,
             "src": "200:189:0",
             "visibility": "public"
           },
@@ -556,7 +560,7 @@
             "id": 34,
             "name": "BookList",
             "nodeType": "VariableDeclaration",
-            "scope": 152,
+            "scope": 155,
             "src": "395:34:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -603,7 +607,7 @@
             "id": 37,
             "name": "bookId",
             "nodeType": "VariableDeclaration",
-            "scope": 152,
+            "scope": 155,
             "src": "436:13:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -789,7 +793,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 224,
+                            "referencedDeclaration": 227,
                             "src": "682:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1025,7 +1029,7 @@
               "parameters": [],
               "src": "585:0:0"
             },
-            "scope": 152,
+            "scope": 155,
             "src": "456:244:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1033,22 +1037,22 @@
           },
           {
             "body": {
-              "id": 103,
+              "id": 106,
               "nodeType": "Block",
-              "src": "821:147:0",
+              "src": "826:155:0",
               "statements": [
                 {
                   "assignments": [
-                    84
+                    86
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 84,
+                      "id": 86,
                       "name": "c",
                       "nodeType": "VariableDeclaration",
-                      "scope": 103,
-                      "src": "831:14:0",
+                      "scope": 106,
+                      "src": "836:14:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -1057,11 +1061,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 83,
+                        "id": 85,
                         "name": "Book",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 30,
-                        "src": "831:4:0",
+                        "src": "836:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                           "typeString": "struct Bookstore.Book"
@@ -1071,31 +1075,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 88,
+                  "id": 90,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 85,
+                      "id": 87,
                       "name": "BookList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 34,
-                      "src": "848:8:0",
+                      "src": "853:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Book_$30_storage_$",
                         "typeString": "mapping(uint256 => struct Bookstore.Book storage ref)"
                       }
                     },
-                    "id": 87,
+                    "id": 89,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 86,
+                      "id": 88,
                       "name": "_bookId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 68,
-                      "src": "857:7:0",
+                      "src": "862:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1106,14 +1110,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "848:17:0",
+                    "src": "853:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Book_$30_storage",
                       "typeString": "struct Bookstore.Book storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "831:34:0"
+                  "src": "836:34:0"
                 },
                 {
                   "expression": {
@@ -1123,41 +1127,12 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 89,
-                          "name": "c",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "883:1:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
-                            "typeString": "struct Bookstore.Book storage pointer"
-                          }
-                        },
-                        "id": 90,
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "bookName",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 19,
-                        "src": "883:10:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_string_storage",
-                          "typeString": "string storage ref"
-                        }
-                      },
-                      {
-                        "argumentTypes": null,
-                        "expression": {
-                          "argumentTypes": null,
                           "id": 91,
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "895:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "888:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -1168,13 +1143,13 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "bookHash",
+                        "memberName": "bookName",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 21,
-                        "src": "895:10:0",
+                        "referencedDeclaration": 19,
+                        "src": "888:10:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_bytes32",
-                          "typeString": "bytes32"
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
                         }
                       },
                       {
@@ -1185,8 +1160,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "907:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "900:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -1197,10 +1172,10 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "coverHash",
+                        "memberName": "bookHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 23,
-                        "src": "907:11:0",
+                        "referencedDeclaration": 21,
+                        "src": "900:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -1214,8 +1189,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "920:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "912:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -1226,10 +1201,10 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "descriptionHash",
+                        "memberName": "coverHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 25,
-                        "src": "920:17:0",
+                        "referencedDeclaration": 23,
+                        "src": "912:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -1243,8 +1218,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "939:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "925:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -1255,13 +1230,13 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "amount",
+                        "memberName": "descriptionHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 27,
-                        "src": "939:8:0",
+                        "referencedDeclaration": 25,
+                        "src": "925:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
                         }
                       },
                       {
@@ -1272,8 +1247,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "949:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "944:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -1284,38 +1259,80 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
+                        "memberName": "amount",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 27,
+                        "src": "944:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 101,
+                          "name": "c",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 86,
+                          "src": "954:1:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
+                            "typeString": "struct Bookstore.Book storage pointer"
+                          }
+                        },
+                        "id": 102,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
                         "memberName": "bookOwner",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 29,
-                        "src": "949:11:0",
+                        "src": "954:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 103,
+                        "name": "_bookId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 68,
+                        "src": "966:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
                       }
                     ],
-                    "id": 101,
+                    "id": 104,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "882:79:0",
+                    "src": "887:87:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_address_payable_$",
-                      "typeString": "tuple(string storage ref,bytes32,bytes32,bytes32,uint256,address payable)"
+                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_address_payable_$_t_uint256_$",
+                      "typeString": "tuple(string storage ref,bytes32,bytes32,bytes32,uint256,address payable,uint256)"
                     }
                   },
-                  "functionReturnParameters": 82,
-                  "id": 102,
+                  "functionReturnParameters": 84,
+                  "id": 105,
                   "nodeType": "Return",
-                  "src": "875:86:0"
+                  "src": "880:94:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 104,
+            "id": 107,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1330,7 +1347,7 @@
                   "id": 68,
                   "name": "_bookId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "723:15:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1355,7 +1372,7 @@
               "src": "722:17:0"
             },
             "returnParameters": {
-              "id": 82,
+              "id": 84,
               "nodeType": "ParameterList",
               "parameters": [
                 {
@@ -1363,7 +1380,7 @@
                   "id": 71,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "761:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -1389,7 +1406,7 @@
                   "id": 73,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "776:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1415,7 +1432,7 @@
                   "id": 75,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "785:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1441,7 +1458,7 @@
                   "id": 77,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "794:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1467,7 +1484,7 @@
                   "id": 79,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "803:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1493,7 +1510,7 @@
                   "id": 81,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "812:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1514,84 +1531,14 @@
                   },
                   "value": null,
                   "visibility": "internal"
-                }
-              ],
-              "src": "760:60:0"
-            },
-            "scope": 152,
-            "src": "705:263:0",
-            "stateMutability": "view",
-            "superFunction": null,
-            "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 112,
-              "nodeType": "Block",
-              "src": "1024:32:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "components": [
-                      {
-                        "argumentTypes": null,
-                        "id": 109,
-                        "name": "bookId",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
-                        "src": "1042:6:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      }
-                    ],
-                    "id": 110,
-                    "isConstant": false,
-                    "isInlineArray": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "nodeType": "TupleExpression",
-                    "src": "1041:8:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "functionReturnParameters": 108,
-                  "id": 111,
-                  "nodeType": "Return",
-                  "src": "1034:15:0"
-                }
-              ]
-            },
-            "documentation": null,
-            "id": 113,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "totalBooks",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 105,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "992:2:0"
-            },
-            "returnParameters": {
-              "id": 108,
-              "nodeType": "ParameterList",
-              "parameters": [
+                },
                 {
                   "constant": false,
-                  "id": 107,
+                  "id": 83,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1015:7:0",
+                  "scope": 107,
+                  "src": "820:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1599,10 +1546,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 106,
-                    "name": "uint256",
+                    "id": 82,
+                    "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1015:7:0",
+                    "src": "820:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1612,32 +1559,128 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1014:9:0"
+              "src": "760:65:0"
             },
-            "scope": 152,
-            "src": "973:83:0",
+            "scope": 155,
+            "src": "705:276:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 150,
+              "id": 115,
               "nodeType": "Block",
-              "src": "1112:228:0",
+              "src": "1037:32:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "id": 112,
+                        "name": "bookId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 37,
+                        "src": "1055:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "id": 113,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "1054:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 111,
+                  "id": 114,
+                  "nodeType": "Return",
+                  "src": "1047:15:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 116,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "totalBooks",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 108,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1005:2:0"
+            },
+            "returnParameters": {
+              "id": 111,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 110,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 116,
+                  "src": "1028:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 109,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1028:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1027:9:0"
+            },
+            "scope": 155,
+            "src": "986:83:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 153,
+              "nodeType": "Block",
+              "src": "1125:228:0",
               "statements": [
                 {
                   "assignments": [
-                    119
+                    122
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 119,
+                      "id": 122,
                       "name": "Books",
                       "nodeType": "VariableDeclaration",
-                      "scope": 150,
-                      "src": "1120:18:0",
+                      "scope": 153,
+                      "src": "1133:18:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -1646,11 +1689,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 118,
+                        "id": 121,
                         "name": "Book",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 30,
-                        "src": "1120:4:0",
+                        "src": "1133:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                           "typeString": "struct Bookstore.Book"
@@ -1660,31 +1703,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 123,
+                  "id": 126,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 120,
+                      "id": 123,
                       "name": "BookList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 34,
-                      "src": "1141:8:0",
+                      "src": "1154:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Book_$30_storage_$",
                         "typeString": "mapping(uint256 => struct Bookstore.Book storage ref)"
                       }
                     },
-                    "id": 122,
+                    "id": 125,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 121,
+                      "id": 124,
                       "name": "_bookId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 115,
-                      "src": "1150:7:0",
+                      "referencedDeclaration": 118,
+                      "src": "1163:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1695,14 +1738,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1141:17:0",
+                    "src": "1154:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Book_$30_storage",
                       "typeString": "struct Bookstore.Book storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1120:38:0"
+                  "src": "1133:38:0"
                 },
                 {
                   "expression": {
@@ -1714,7 +1757,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 129,
+                        "id": 132,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1723,18 +1766,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 125,
+                            "id": 128,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 224,
-                            "src": "1175:3:0",
+                            "referencedDeclaration": 227,
+                            "src": "1188:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 126,
+                          "id": 129,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1742,7 +1785,7 @@
                           "memberName": "value",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1175:9:0",
+                          "src": "1188:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1754,18 +1797,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 127,
+                            "id": 130,
                             "name": "Books",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 119,
-                            "src": "1188:5:0",
+                            "referencedDeclaration": 122,
+                            "src": "1201:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                               "typeString": "struct Bookstore.Book storage pointer"
                             }
                           },
-                          "id": 128,
+                          "id": 131,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -1773,13 +1816,13 @@
                           "memberName": "amount",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 27,
-                          "src": "1188:12:0",
+                          "src": "1201:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "1175:25:0",
+                        "src": "1188:25:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1788,14 +1831,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "436865636b2074686520626f6f6b20616d6f756e74",
-                        "id": 130,
+                        "id": 133,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "1202:23:0",
+                        "src": "1215:23:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_006533ae2d7f3f5feac76ef7471b0a5f11d188eb33f3acdcd0b42ee46b96c6cf",
@@ -1815,21 +1858,21 @@
                           "typeString": "literal_string \"Check the book amount\""
                         }
                       ],
-                      "id": 124,
+                      "id": 127,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        227,
-                        228
+                        230,
+                        231
                       ],
-                      "referencedDeclaration": 228,
-                      "src": "1166:7:0",
+                      "referencedDeclaration": 231,
+                      "src": "1179:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 131,
+                    "id": 134,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1837,15 +1880,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1166:60:0",
+                    "src": "1179:60:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 132,
+                  "id": 135,
                   "nodeType": "ExpressionStatement",
-                  "src": "1166:60:0"
+                  "src": "1179:60:0"
                 },
                 {
                   "expression": {
@@ -1855,18 +1898,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 138,
+                          "id": 141,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1259:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1272:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 139,
+                        "id": 142,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -1874,7 +1917,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 27,
-                        "src": "1259:12:0",
+                        "src": "1272:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1892,18 +1935,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 133,
+                          "id": 136,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1234:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1247:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 136,
+                        "id": 139,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -1911,13 +1954,13 @@
                         "memberName": "bookOwner",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 29,
-                        "src": "1234:15:0",
+                        "src": "1247:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 137,
+                      "id": 140,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1925,13 +1968,13 @@
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1234:24:0",
+                      "src": "1247:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 140,
+                    "id": 143,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1939,15 +1982,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1234:38:0",
+                    "src": "1247:38:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 141,
+                  "id": 144,
                   "nodeType": "ExpressionStatement",
-                  "src": "1234:38:0"
+                  "src": "1247:38:0"
                 },
                 {
                   "eventCall": {
@@ -1955,12 +1998,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 143,
+                        "id": 146,
                         "name": "_bookId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 115,
-                        "src": "1299:7:0",
+                        "referencedDeclaration": 118,
+                        "src": "1312:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1970,18 +2013,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 144,
+                          "id": 147,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 224,
-                          "src": "1308:3:0",
+                          "referencedDeclaration": 227,
+                          "src": "1321:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 145,
+                        "id": 148,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1989,7 +2032,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1308:10:0",
+                        "src": "1321:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1999,18 +2042,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 146,
+                          "id": 149,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1320:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1333:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 147,
+                        "id": 150,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -2018,7 +2061,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 27,
-                        "src": "1320:12:0",
+                        "src": "1333:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2040,18 +2083,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 142,
+                      "id": 145,
                       "name": "bookPurchased",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 17,
-                      "src": "1285:13:0",
+                      "src": "1298:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (uint256,address,uint256)"
                       }
                     },
-                    "id": 148,
+                    "id": 151,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2059,36 +2102,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1285:48:0",
+                    "src": "1298:48:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 149,
+                  "id": 152,
                   "nodeType": "EmitStatement",
-                  "src": "1280:53:0"
+                  "src": "1293:53:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 151,
+            "id": 154,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "Purchase",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 116,
+              "id": 119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 115,
+                  "id": 118,
                   "name": "_bookId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 151,
-                  "src": "1080:15:0",
+                  "scope": 154,
+                  "src": "1093:15:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2096,10 +2139,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 114,
+                    "id": 117,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1080:7:0",
+                    "src": "1093:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2109,35 +2152,35 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1079:17:0"
+              "src": "1092:17:0"
             },
             "returnParameters": {
-              "id": 117,
+              "id": 120,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1112:0:0"
+              "src": "1125:0:0"
             },
-            "scope": 152,
-            "src": "1061:279:0",
+            "scope": 155,
+            "src": "1074:279:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 153,
-        "src": "25:1319:0"
+        "scope": 156,
+        "src": "25:1332:0"
       }
     ],
-    "src": "0:1344:0"
+    "src": "0:1357:0"
   },
   "legacyAST": {
-    "absolutePath": "/home/apeksha/Bookstore/src/contracts/Bookstore.sol",
+    "absolutePath": "/home/apeksha/Bookstore-ipfs/src/contracts/Bookstore.sol",
     "exportedSymbols": {
       "Bookstore": [
-        152
+        155
       ]
     },
-    "id": 153,
+    "id": 156,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -2157,9 +2200,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 152,
+        "id": 155,
         "linearizedBaseContracts": [
-          152
+          155
         ],
         "name": "Bookstore",
         "nodeType": "ContractDefinition",
@@ -2522,7 +2565,7 @@
             ],
             "name": "Book",
             "nodeType": "StructDefinition",
-            "scope": 152,
+            "scope": 155,
             "src": "200:189:0",
             "visibility": "public"
           },
@@ -2531,7 +2574,7 @@
             "id": 34,
             "name": "BookList",
             "nodeType": "VariableDeclaration",
-            "scope": 152,
+            "scope": 155,
             "src": "395:34:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2578,7 +2621,7 @@
             "id": 37,
             "name": "bookId",
             "nodeType": "VariableDeclaration",
-            "scope": 152,
+            "scope": 155,
             "src": "436:13:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2764,7 +2807,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 224,
+                            "referencedDeclaration": 227,
                             "src": "682:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -3000,7 +3043,7 @@
               "parameters": [],
               "src": "585:0:0"
             },
-            "scope": 152,
+            "scope": 155,
             "src": "456:244:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -3008,22 +3051,22 @@
           },
           {
             "body": {
-              "id": 103,
+              "id": 106,
               "nodeType": "Block",
-              "src": "821:147:0",
+              "src": "826:155:0",
               "statements": [
                 {
                   "assignments": [
-                    84
+                    86
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 84,
+                      "id": 86,
                       "name": "c",
                       "nodeType": "VariableDeclaration",
-                      "scope": 103,
-                      "src": "831:14:0",
+                      "scope": 106,
+                      "src": "836:14:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -3032,11 +3075,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 83,
+                        "id": 85,
                         "name": "Book",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 30,
-                        "src": "831:4:0",
+                        "src": "836:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                           "typeString": "struct Bookstore.Book"
@@ -3046,31 +3089,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 88,
+                  "id": 90,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 85,
+                      "id": 87,
                       "name": "BookList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 34,
-                      "src": "848:8:0",
+                      "src": "853:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Book_$30_storage_$",
                         "typeString": "mapping(uint256 => struct Bookstore.Book storage ref)"
                       }
                     },
-                    "id": 87,
+                    "id": 89,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 86,
+                      "id": 88,
                       "name": "_bookId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 68,
-                      "src": "857:7:0",
+                      "src": "862:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3081,14 +3124,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "848:17:0",
+                    "src": "853:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Book_$30_storage",
                       "typeString": "struct Bookstore.Book storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "831:34:0"
+                  "src": "836:34:0"
                 },
                 {
                   "expression": {
@@ -3098,41 +3141,12 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 89,
-                          "name": "c",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "883:1:0",
-                          "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
-                            "typeString": "struct Bookstore.Book storage pointer"
-                          }
-                        },
-                        "id": 90,
-                        "isConstant": false,
-                        "isLValue": true,
-                        "isPure": false,
-                        "lValueRequested": false,
-                        "memberName": "bookName",
-                        "nodeType": "MemberAccess",
-                        "referencedDeclaration": 19,
-                        "src": "883:10:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_string_storage",
-                          "typeString": "string storage ref"
-                        }
-                      },
-                      {
-                        "argumentTypes": null,
-                        "expression": {
-                          "argumentTypes": null,
                           "id": 91,
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "895:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "888:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -3143,13 +3157,13 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "bookHash",
+                        "memberName": "bookName",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 21,
-                        "src": "895:10:0",
+                        "referencedDeclaration": 19,
+                        "src": "888:10:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_bytes32",
-                          "typeString": "bytes32"
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
                         }
                       },
                       {
@@ -3160,8 +3174,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "907:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "900:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -3172,10 +3186,10 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "coverHash",
+                        "memberName": "bookHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 23,
-                        "src": "907:11:0",
+                        "referencedDeclaration": 21,
+                        "src": "900:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -3189,8 +3203,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "920:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "912:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -3201,10 +3215,10 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "descriptionHash",
+                        "memberName": "coverHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 25,
-                        "src": "920:17:0",
+                        "referencedDeclaration": 23,
+                        "src": "912:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -3218,8 +3232,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "939:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "925:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -3230,13 +3244,13 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
-                        "memberName": "amount",
+                        "memberName": "descriptionHash",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 27,
-                        "src": "939:8:0",
+                        "referencedDeclaration": 25,
+                        "src": "925:17:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
                         }
                       },
                       {
@@ -3247,8 +3261,8 @@
                           "name": "c",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 84,
-                          "src": "949:1:0",
+                          "referencedDeclaration": 86,
+                          "src": "944:1:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
@@ -3259,38 +3273,80 @@
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
+                        "memberName": "amount",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 27,
+                        "src": "944:8:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 101,
+                          "name": "c",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 86,
+                          "src": "954:1:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
+                            "typeString": "struct Bookstore.Book storage pointer"
+                          }
+                        },
+                        "id": 102,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
                         "memberName": "bookOwner",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 29,
-                        "src": "949:11:0",
+                        "src": "954:11:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 103,
+                        "name": "_bookId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 68,
+                        "src": "966:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
                       }
                     ],
-                    "id": 101,
+                    "id": 104,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "882:79:0",
+                    "src": "887:87:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_address_payable_$",
-                      "typeString": "tuple(string storage ref,bytes32,bytes32,bytes32,uint256,address payable)"
+                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_address_payable_$_t_uint256_$",
+                      "typeString": "tuple(string storage ref,bytes32,bytes32,bytes32,uint256,address payable,uint256)"
                     }
                   },
-                  "functionReturnParameters": 82,
-                  "id": 102,
+                  "functionReturnParameters": 84,
+                  "id": 105,
                   "nodeType": "Return",
-                  "src": "875:86:0"
+                  "src": "880:94:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 104,
+            "id": 107,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3305,7 +3361,7 @@
                   "id": 68,
                   "name": "_bookId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "723:15:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3330,7 +3386,7 @@
               "src": "722:17:0"
             },
             "returnParameters": {
-              "id": 82,
+              "id": 84,
               "nodeType": "ParameterList",
               "parameters": [
                 {
@@ -3338,7 +3394,7 @@
                   "id": 71,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "761:13:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -3364,7 +3420,7 @@
                   "id": 73,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "776:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3390,7 +3446,7 @@
                   "id": 75,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "785:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3416,7 +3472,7 @@
                   "id": 77,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "794:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3442,7 +3498,7 @@
                   "id": 79,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "803:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3468,7 +3524,7 @@
                   "id": 81,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 104,
+                  "scope": 107,
                   "src": "812:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3489,84 +3545,14 @@
                   },
                   "value": null,
                   "visibility": "internal"
-                }
-              ],
-              "src": "760:60:0"
-            },
-            "scope": 152,
-            "src": "705:263:0",
-            "stateMutability": "view",
-            "superFunction": null,
-            "visibility": "public"
-          },
-          {
-            "body": {
-              "id": 112,
-              "nodeType": "Block",
-              "src": "1024:32:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "components": [
-                      {
-                        "argumentTypes": null,
-                        "id": 109,
-                        "name": "bookId",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 37,
-                        "src": "1042:6:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_uint256",
-                          "typeString": "uint256"
-                        }
-                      }
-                    ],
-                    "id": 110,
-                    "isConstant": false,
-                    "isInlineArray": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "nodeType": "TupleExpression",
-                    "src": "1041:8:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_uint256",
-                      "typeString": "uint256"
-                    }
-                  },
-                  "functionReturnParameters": 108,
-                  "id": 111,
-                  "nodeType": "Return",
-                  "src": "1034:15:0"
-                }
-              ]
-            },
-            "documentation": null,
-            "id": 113,
-            "implemented": true,
-            "kind": "function",
-            "modifiers": [],
-            "name": "totalBooks",
-            "nodeType": "FunctionDefinition",
-            "parameters": {
-              "id": 105,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "992:2:0"
-            },
-            "returnParameters": {
-              "id": 108,
-              "nodeType": "ParameterList",
-              "parameters": [
+                },
                 {
                   "constant": false,
-                  "id": 107,
+                  "id": 83,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1015:7:0",
+                  "scope": 107,
+                  "src": "820:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3574,10 +3560,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 106,
-                    "name": "uint256",
+                    "id": 82,
+                    "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1015:7:0",
+                    "src": "820:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3587,32 +3573,128 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1014:9:0"
+              "src": "760:65:0"
             },
-            "scope": 152,
-            "src": "973:83:0",
+            "scope": 155,
+            "src": "705:276:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 150,
+              "id": 115,
               "nodeType": "Block",
-              "src": "1112:228:0",
+              "src": "1037:32:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "id": 112,
+                        "name": "bookId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 37,
+                        "src": "1055:6:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "id": 113,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "1054:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 111,
+                  "id": 114,
+                  "nodeType": "Return",
+                  "src": "1047:15:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 116,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "totalBooks",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 108,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1005:2:0"
+            },
+            "returnParameters": {
+              "id": 111,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 110,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 116,
+                  "src": "1028:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 109,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1028:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1027:9:0"
+            },
+            "scope": 155,
+            "src": "986:83:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 153,
+              "nodeType": "Block",
+              "src": "1125:228:0",
               "statements": [
                 {
                   "assignments": [
-                    119
+                    122
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 119,
+                      "id": 122,
                       "name": "Books",
                       "nodeType": "VariableDeclaration",
-                      "scope": 150,
-                      "src": "1120:18:0",
+                      "scope": 153,
+                      "src": "1133:18:0",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
@@ -3621,11 +3703,11 @@
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 118,
+                        "id": 121,
                         "name": "Book",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 30,
-                        "src": "1120:4:0",
+                        "src": "1133:4:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                           "typeString": "struct Bookstore.Book"
@@ -3635,31 +3717,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 123,
+                  "id": 126,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 120,
+                      "id": 123,
                       "name": "BookList",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 34,
-                      "src": "1141:8:0",
+                      "src": "1154:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Book_$30_storage_$",
                         "typeString": "mapping(uint256 => struct Bookstore.Book storage ref)"
                       }
                     },
-                    "id": 122,
+                    "id": 125,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 121,
+                      "id": 124,
                       "name": "_bookId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 115,
-                      "src": "1150:7:0",
+                      "referencedDeclaration": 118,
+                      "src": "1163:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3670,14 +3752,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "1141:17:0",
+                    "src": "1154:17:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Book_$30_storage",
                       "typeString": "struct Bookstore.Book storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1120:38:0"
+                  "src": "1133:38:0"
                 },
                 {
                   "expression": {
@@ -3689,7 +3771,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 129,
+                        "id": 132,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3698,18 +3780,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 125,
+                            "id": 128,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 224,
-                            "src": "1175:3:0",
+                            "referencedDeclaration": 227,
+                            "src": "1188:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 126,
+                          "id": 129,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3717,7 +3799,7 @@
                           "memberName": "value",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "1175:9:0",
+                          "src": "1188:9:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3729,18 +3811,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 127,
+                            "id": 130,
                             "name": "Books",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 119,
-                            "src": "1188:5:0",
+                            "referencedDeclaration": 122,
+                            "src": "1201:5:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                               "typeString": "struct Bookstore.Book storage pointer"
                             }
                           },
-                          "id": 128,
+                          "id": 131,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
@@ -3748,13 +3830,13 @@
                           "memberName": "amount",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": 27,
-                          "src": "1188:12:0",
+                          "src": "1201:12:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "src": "1175:25:0",
+                        "src": "1188:25:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3763,14 +3845,14 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "436865636b2074686520626f6f6b20616d6f756e74",
-                        "id": 130,
+                        "id": 133,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "1202:23:0",
+                        "src": "1215:23:0",
                         "subdenomination": null,
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_006533ae2d7f3f5feac76ef7471b0a5f11d188eb33f3acdcd0b42ee46b96c6cf",
@@ -3790,21 +3872,21 @@
                           "typeString": "literal_string \"Check the book amount\""
                         }
                       ],
-                      "id": 124,
+                      "id": 127,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        227,
-                        228
+                        230,
+                        231
                       ],
-                      "referencedDeclaration": 228,
-                      "src": "1166:7:0",
+                      "referencedDeclaration": 231,
+                      "src": "1179:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 131,
+                    "id": 134,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3812,15 +3894,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1166:60:0",
+                    "src": "1179:60:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 132,
+                  "id": 135,
                   "nodeType": "ExpressionStatement",
-                  "src": "1166:60:0"
+                  "src": "1179:60:0"
                 },
                 {
                   "expression": {
@@ -3830,18 +3912,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 138,
+                          "id": 141,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1259:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1272:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 139,
+                        "id": 142,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3849,7 +3931,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 27,
-                        "src": "1259:12:0",
+                        "src": "1272:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3867,18 +3949,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 133,
+                          "id": 136,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1234:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1247:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 136,
+                        "id": 139,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3886,13 +3968,13 @@
                         "memberName": "bookOwner",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 29,
-                        "src": "1234:15:0",
+                        "src": "1247:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
                         }
                       },
-                      "id": 137,
+                      "id": 140,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3900,13 +3982,13 @@
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1234:24:0",
+                      "src": "1247:24:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_transfer_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 140,
+                    "id": 143,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3914,15 +3996,15 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1234:38:0",
+                    "src": "1247:38:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 141,
+                  "id": 144,
                   "nodeType": "ExpressionStatement",
-                  "src": "1234:38:0"
+                  "src": "1247:38:0"
                 },
                 {
                   "eventCall": {
@@ -3930,12 +4012,12 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 143,
+                        "id": 146,
                         "name": "_bookId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 115,
-                        "src": "1299:7:0",
+                        "referencedDeclaration": 118,
+                        "src": "1312:7:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3945,18 +4027,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 144,
+                          "id": 147,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 224,
-                          "src": "1308:3:0",
+                          "referencedDeclaration": 227,
+                          "src": "1321:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 145,
+                        "id": 148,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3964,7 +4046,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "1308:10:0",
+                        "src": "1321:10:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -3974,18 +4056,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 146,
+                          "id": 149,
                           "name": "Books",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 119,
-                          "src": "1320:5:0",
+                          "referencedDeclaration": 122,
+                          "src": "1333:5:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Book_$30_storage_ptr",
                             "typeString": "struct Bookstore.Book storage pointer"
                           }
                         },
-                        "id": 147,
+                        "id": 150,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
@@ -3993,7 +4075,7 @@
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 27,
-                        "src": "1320:12:0",
+                        "src": "1333:12:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -4015,18 +4097,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 142,
+                      "id": 145,
                       "name": "bookPurchased",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 17,
-                      "src": "1285:13:0",
+                      "src": "1298:13:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (uint256,address,uint256)"
                       }
                     },
-                    "id": 148,
+                    "id": 151,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4034,36 +4116,36 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1285:48:0",
+                    "src": "1298:48:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 149,
+                  "id": 152,
                   "nodeType": "EmitStatement",
-                  "src": "1280:53:0"
+                  "src": "1293:53:0"
                 }
               ]
             },
             "documentation": null,
-            "id": 151,
+            "id": 154,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "Purchase",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 116,
+              "id": 119,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 115,
+                  "id": 118,
                   "name": "_bookId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 151,
-                  "src": "1080:15:0",
+                  "scope": 154,
+                  "src": "1093:15:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4071,10 +4153,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 114,
+                    "id": 117,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1080:7:0",
+                    "src": "1093:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -4084,26 +4166,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1079:17:0"
+              "src": "1092:17:0"
             },
             "returnParameters": {
-              "id": 117,
+              "id": 120,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1112:0:0"
+              "src": "1125:0:0"
             },
-            "scope": 152,
-            "src": "1061:279:0",
+            "scope": 155,
+            "src": "1074:279:0",
             "stateMutability": "payable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 153,
-        "src": "25:1319:0"
+        "scope": 156,
+        "src": "25:1332:0"
       }
     ],
-    "src": "0:1344:0"
+    "src": "0:1357:0"
   },
   "compiler": {
     "name": "solc",
@@ -4113,12 +4195,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x45707386ee3d067fB13224c0dE08D6194E3497B4",
-      "transactionHash": "0x378f67b9fe2c7f704742c10cee96016511ef7f0290c5229f6284cc5a8f2a21b9"
+      "address": "0x8e66Afd12595931fc900Ad43fE49870275A13e49",
+      "transactionHash": "0x96fb93e25ddf6c04d44e081e78ed8f9ce4eecdaa0c9c365d5c2b71a93947e539"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2020-06-20T14:22:22.437Z",
+  "updatedAt": "2020-06-21T11:35:47.277Z",
   "devdoc": {
     "methods": {}
   },

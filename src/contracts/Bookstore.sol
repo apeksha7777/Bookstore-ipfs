@@ -16,9 +16,9 @@ contract Bookstore {
      function store(string memory _bookName, bytes32 _bookHash, bytes32 _coverHash, bytes32 _descriptionHash, uint256 _amount) public {
         BookList[bookId++] = Book(_bookName, _bookHash, _coverHash, _descriptionHash, _amount, msg.sender);
     }
-    function retreive(uint256 _bookId) public view returns (string memory, bytes32, bytes32, bytes32, uint256, address) {
+    function retreive(uint256 _bookId) public view returns (string memory, bytes32, bytes32, bytes32, uint256, address,uint) {
         Book storage c = BookList[_bookId];
-        return (c.bookName, c.bookHash, c.coverHash, c.descriptionHash, c.amount, c.bookOwner);
+        return (c.bookName, c.bookHash, c.coverHash, c.descriptionHash, c.amount, c.bookOwner,_bookId);
     }
     function totalBooks() public view returns(uint256) {
         return (bookId);
